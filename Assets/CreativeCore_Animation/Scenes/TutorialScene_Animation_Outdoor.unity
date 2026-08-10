@@ -3002,11 +3002,11 @@ Transform:
   m_GameObject: {fileID: 1421156935}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.87, y: 2.747, z: 2.21}
+  m_LocalPosition: {x: -3.87, y: 7.7, z: 2.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1884049501}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1421156937
 SphereCollider:
@@ -3095,8 +3095,13 @@ Animation:
   m_GameObject: {fileID: 1421156935}
   m_Enabled: 1
   serializedVersion: 4
+<<<<<<< Updated upstream
   m_Animation: {fileID: 0}
+=======
+  m_Animation: {fileID: 7400000, guid: 1b707a4a0b1cca34690c64f9c1bf94c2, type: 2}
+>>>>>>> Stashed changes
   m_Animations:
+  - {fileID: 7400000, guid: 1b707a4a0b1cca34690c64f9c1bf94c2, type: 2}
   - {fileID: 7400000, guid: 8ec462993bd78b94ca019eb43e522386, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
@@ -3648,6 +3653,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852473585}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1884049500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1884049501}
+  m_Layer: 0
+  m_Name: ball_parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1884049501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884049500}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.47, y: 1.16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1421156936}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1982226418
 GameObject:
   m_ObjectHideFlags: 0
@@ -3879,5 +3916,5 @@ SceneRoots:
   - {fileID: 1755450114}
   - {fileID: 328965092}
   - {fileID: 500687203}
-  - {fileID: 1421156936}
   - {fileID: 1368785138}
+  - {fileID: 1884049501}
