@@ -3087,32 +3087,16 @@ MeshFilter:
   m_GameObject: {fileID: 1421156935}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!111 &1421156940
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421156935}
-  m_Enabled: 1
-  serializedVersion: 4
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-  m_Animation: {fileID: 0}
-=======
-  m_Animation: {fileID: 7400000, guid: 1b707a4a0b1cca34690c64f9c1bf94c2, type: 2}
->>>>>>> Stashed changes
-=======
-  m_Animation: {fileID: 7400000, guid: 44ac67c2c15e93240b5fa5babdc81138, type: 2}
->>>>>>> main
-  m_Animations:
-  - {fileID: 7400000, guid: 1b707a4a0b1cca34690c64f9c1bf94c2, type: 2}
-  - {fileID: 7400000, guid: 8ec462993bd78b94ca019eb43e522386, type: 2}
-  - {fileID: 7400000, guid: 44ac67c2c15e93240b5fa5babdc81138, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
+m_Animation: {fileID: 7400000, guid: 44ac67c2c15e93240b5fa5babdc81138, type: 2}
+m_Animations:
+- {fileID: 7400000, guid: 1b707a4a0b1cca34690c64f9c1bf94c2, type: 2}
+- {fileID: 7400000, guid: 8ec462993bd78b94ca019eb43e522386, type: 2}
+- {fileID: 7400000, guid: 44ac67c2c15e93240b5fa5babdc81138, type: 2}
+m_WrapMode: 0
+m_PlayAutomatically: 1
+m_AnimatePhysics: 0
+m_UpdateMode: 0
+m_CullingType: 0
 --- !u!1 &1618400911
 GameObject:
   m_ObjectHideFlags: 0
